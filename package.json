@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://Brendan-Fisher.github.io/fancy_form",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/"
+    "sass": "node-sass -w scss/ -o css/",
+    "deploy": "gh-pages -d fancy_form"
   },
   "keywords": [],
   "author": "Brendan Fisher",
